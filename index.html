@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lab 3 – Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header class="band">
+    <h1>Lab 3 – Rock Paper Scissors</h1>
+  </header>
+
+  
+  <nav class="top-nav" aria-label="Useful links">
+    <ul>
+      <li><a href="https://finance.yahoo.com/" target="_blank" rel="noopener">Yahoo Finance</a></li>
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener">Gemini</a></li>
+      <li><a href="https://www.testudo.umd.edu/" target="_blank" rel="noopener">Testudo</a></li>
+    </ul>
+  </nav>
+
+  
+  <main class="wrap">
+    
+    <section class="card main-card">
+      <h2>Please choose one of the following.</h2>
+
+      <form class="rps-form" action="#" method="get" novalidate>
+        <div class="row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required placeholder="Your name" />
+        </div>
+
+        <div class="row">
+          <label for="choice">Your choice:</label>
+          <select id="choice" name="choice">
+            <option>Rock</option>
+            <option>Paper</option>
+            <option>Scissors</option>
+          </select>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    
+    <aside class="card rules" aria-label="Rules">
+      <h2><u>Rules</u></h2>
+
+      <p><strong>You must choose Rock, Paper or Scissors</strong></p>
+
+      <p><strong>The Combos are as follows:</strong></p>
+      <ul>
+        <li>Rock beats Scissors</li>
+        <li>Scissors beats Paper</li>
+        <li>Paper beats Rock</li>
+      </ul>
+    </aside>
+  </main>
+
+  
+  <footer class="band footer">
+    <p>This is a footer, maybe I should make it interesting, but I am pretty boring.</p>
+  </footer>
+</body>
+</html>
